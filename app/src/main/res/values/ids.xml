@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="bt_button7" type="id" />
+    <item name="bt_button6" type="id" />
+    <item name="bt_button8" type="id" />
+    <item name="bt_button9" type="id" />
+    <item name="bt_button10" type="id" />
+    <item name="bt_button11" type="id" />
+    <item name="bt_button12" type="id" />
+    <item name="bt_button14" type="id" />
+    <item name="bt_button13" type="id" />
+    <item name="bt_button15" type="id" />
+    <item name="bt_button16" type="id" />
+    <item name="bt_button17" type="id" />
+    <item name="bt_button18" type="id" />
+    <item name="bt_button19" type="id" />
+    <item name="bt_button20" type="id" />
+    <item name="bt_button21" type="id" />
+    <item name="bt_button22" type="id" />
+    <item name="bt_button23" type="id" />
+    <item name="bt_button24" type="id" />
+    <item name="bt_button25" type="id" />
+    <item name="btn_alfabeto" type="id" />
+</resources>

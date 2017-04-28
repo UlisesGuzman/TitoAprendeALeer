@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@drawable/hd"
+    tools:context=".MesesAnio">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="443dp"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+
+                <ImageButton
+                    android:id="@+id/bt_button1"
+                    android:layout_width="160dp"
+                    android:layout_height="115dp"
+                    android:layout_margin="7dp"
+                    android:padding="100dp"
+                    android:src="@drawable/enero"
+                    android:text="enero" />
+
+                <ImageButton
+                    android:id="@+id/bt_button2"
+                    android:layout_width="160dp"
+                    android:layout_height="115dp"
+                    android:layout_margin="7dp"
+                    android:padding="100dp"
+                    android:src="@drawable/febrero"
+                    android:text="febrero" />
+
+
+            </LinearLayout>
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <ImageButton
+                    android:layout_width="160dp"
+                    android:layout_height="115dp"
+                    android:text="marzo"
+                    android:padding="100dp"
+                    android:src="@drawable/marzo"
+                    android:id="@+id/bt_button3"
+                    android:layout_margin="7dp"
+                    />
+
+                <ImageButton
+                    android:id="@+id/bt_button4"
+                    android:layout_width="160dp"
+                    android:layout_height="115dp"
+                    android:layout_margin="7dp"
+                    android:padding="100dp"
+                    android:src="@drawable/abril"
+                    android:text="@string/april" />
+
+            </LinearLayout>
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <ImageButton
+                    android:layout_width="160dp"
+                    android:layout_height="115dp"
+                    android:text="@string/mayo"
+                    android:padding="100dp"
+                    android:src="@drawable/mayo"
+                    android:id="@+id/bt_button5"
+                    android:layout_margin="7dp"
+                    />
+
+                <ImageButton
+                    android:id="@+id/bt_button6"
+                    android:layout_width="160dp"
+                    android:layout_height="115dp"
+                    android:layout_margin="7dp"
+                    android:padding="100dp"
+                    android:src="@drawable/junio"
+                    android:text="@string/junio" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+
+                <ImageButton
+                    android:id="@+id/bt_button7"
+                    android:layout_width="170dp"
+                    android:layout_height="115dp"
+                    android:layout_margin="7dp"
+                    android:padding="100dp"
+                    android:src="@drawable/julio"
+                    android:text="julio" />
+
+                <ImageButton
+                    android:id="@+id/bt_button8"
+                    android:layout_width="170dp"
+                    android:layout_height="115dp"
+                    android:layout_margin="7dp"
+                    android:padding="100dp"
+                    android:src="@drawable/agosto"
+                    android:text="agosto" />
+
+
+            </LinearLayout>
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <ImageButton
+                    android:layout_width="170dp"
+                    android:layout_height="115dp"
+                    android:text="septiembre"
+                    android:padding="100dp"
+                    android:src="@drawable/septiembre"
+                    android:id="@+id/bt_button9"
+                    android:layout_margin="7dp"
+                    />
+
+                <ImageButton
+                    android:id="@+id/bt_button10"
+                    android:layout_width="170dp"
+                    android:layout_height="115dp"
+                    android:layout_margin="7dp"
+                    android:padding="100dp"
+                    android:src="@drawable/octubre"
+                    android:text="octubre" />
+
+            </LinearLayout>
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <ImageButton
+                    android:id="@+id/bt_button11"
+                    android:layout_width="170dp"
+                    android:layout_height="115dp"
+                    android:layout_margin="7dp"
+                    android:padding="100dp"
+                    android:src="@drawable/noviembre"
+                    android:text="noviembre" />
+
+                <ImageButton
+                    android:id="@+id/bt_button12"
+                    android:layout_width="170dp"
+                    android:layout_height="115dp"
+                    android:layout_margin="7dp"
+                    android:padding="100dp"
+                    android:src="@drawable/diciembre"
+                    android:text="diciembre" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

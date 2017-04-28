@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mx.edu.utng.titoaprendealeer">
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:largeHeap="true">
+        <activity android:name=".LoginActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".VocalesActivity"/>
+        <activity android:name=".AlphabetActivity"/>
+        <activity android:name=".AlphabetActivity2"/>
+        <activity android:name=".NumerosActivity"/>
+        <activity android:name=".PalabraActivity"/>
+        <activity android:name=".OperacionesActivity"/>
+        <activity android:name=".DivisionActivity"/>
+        <activity android:name=".RestaActivity"/>
+        <activity android:name=".SumaActivity"/>
+        <activity android:name=".MultiplicacionActivity"/>
+        <activity android:name=".ExamenActivity"/>
+        <activity android:name=".Examen2Activity"/>
+        <activity android:name=".ColoresActivity"/>
+        <activity android:name=".CarrucelActivity"/>
+        <activity android:name=".ShowImageActivity"/>
+        <activity android:name=".EstationAnio"/>
+        <activity android:name=".MesesAnio"/>
+        <activity android:name=".DiasActivity"/>
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".Registro"/>
+
+
+
+    </application>
+
+</manifest>

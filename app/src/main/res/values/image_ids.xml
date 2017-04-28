@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="image_ids">
+
+        <item>@drawable/a1</item>
+        <item>@drawable/b1</item>
+
+        <item>@drawable/c1</item>
+        <item>@drawable/d1</item>
+        <item>@drawable/e1</item>
+        <item>@drawable/f1</item>
+        <item>@drawable/g1</item>
+        <item>@drawable/h1</item>
+        <item>@drawable/i1</item>
+        <item>@drawable/j1</item>
+        <item>@drawable/k1</item>
+        <item>@drawable/l1</item>
+        <item>@drawable/ll1</item>
+        <item>@drawable/m1</item>
+        <item>@drawable/n1</item>
+        <item>@drawable/enie1</item>
+        <item>@drawable/o1</item>
+        <item>@drawable/p1</item>
+        <item>@drawable/q1</item>
+        <item>@drawable/r1</item>
+        <item>@drawable/s1</item>
+        <item>@drawable/t1</item>
+        <item>@drawable/u1</item>
+        <item>@drawable/v1</item>
+        <item>@drawable/w1</item>
+        <item>@drawable/x1</item>
+        <item>@drawable/y1</item>
+        <item>@drawable/z1</item>
+
+
+
+
+    </integer-array>
+
+</resources>
